@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "contents/hello world.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "contents/hello world.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "ca01076ed5d6a2e0",
   "lastOpenFiles": [
+    "README.md",
     "contents/hello world.md",
     "contents/New notes.md",
     "contents/home.md",
-    "README.md",
     "contents/home.md",
     "contents/hello world.md",
     "contents/Hi.md",
