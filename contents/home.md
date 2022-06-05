@@ -1,6 +1,5 @@
 ---
-title: "Hello!"
-dg-publish: true
+title: "This is 99yz"
 ---
 
 # Hello!

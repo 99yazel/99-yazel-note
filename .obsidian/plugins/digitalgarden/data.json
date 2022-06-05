@@ -2,10 +2,10 @@
   "githubRepo": "99-yazel-note",
   "githubToken": "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",
   "githubUserName": "99yazel",
-  "gardenBaseUrl": "",
+  "gardenBaseUrl": "99yazel.netlify.app",
   "prHistory": [],
-  "theme": "dark",
-  "baseTheme": "{\"name\": \"default\", \"modes\": [\"dark\"]}",
+  "theme": "{\"name\":\"80s Neon\",\"author\":\"deathau\",\"repo\":\"deathau/80s-Neon-for-Obsidian.md\",\"screenshot\":\"screenshot.jpg\",\"modes\":[\"dark\",\"light\"],\"cssUrl\":\"https://raw.githubusercontent.com/deathau/80s-Neon-for-Obsidian.md/master/obsidian.css\"}",
+  "baseTheme": "light",
   "faviconPath": "",
   "defaultNoteSettings": {
     "dgHomeLink": true,

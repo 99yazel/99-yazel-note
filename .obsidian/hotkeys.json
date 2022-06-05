@@ -1,1 +1,10 @@
-{}
+{
+  "digitalgarden:publish-note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ]
+}
