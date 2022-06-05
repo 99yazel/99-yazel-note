@@ -7,9 +7,9 @@ module.exports = {
         rootNote: `/home`,
       },
     },
-    `gatsby-plugin-netlify`
+    `gatsby-plugin-netlify`,
   ],
   siteMetadata: {
-    title: process.env.SITE_NAME,
+    title: "99-yazel-note",
   },
 }

@@ -1,0 +1,14 @@
+{
+  "githubRepo": "99-yazel-note",
+  "githubToken": "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",
+  "githubUserName": "99yazel",
+  "gardenBaseUrl": "",
+  "prHistory": [],
+  "theme": "dark",
+  "baseTheme": "{\"name\": \"default\", \"modes\": [\"dark\"]}",
+  "faviconPath": "",
+  "defaultNoteSettings": {
+    "dgHomeLink": true,
+    "dgPassFrontmatter": false
+  }
+}
