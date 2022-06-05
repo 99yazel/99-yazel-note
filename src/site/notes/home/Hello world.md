@@ -1,5 +1,3 @@
-
 ---
-dg-publish: true 
+dg-publish: true
 ---
-
