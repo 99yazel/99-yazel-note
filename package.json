@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-starter-digital-garden",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.32.13",
+    "gatsby-theme-garden": "^0.1.66",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "gatsby-plugin-netlify": "^2.11.1"
+  }
+}
