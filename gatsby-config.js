@@ -3,8 +3,8 @@ module.exports = {
     {
       resolve: `gatsby-theme-garden`,
       options: {
+        rootNote: `/__index`,
         contentPath: `${__dirname}/contents`,
-        rootNote: `/home`,
       },
     },
     `gatsby-plugin-netlify`,
