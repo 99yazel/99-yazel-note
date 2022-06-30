@@ -40,17 +40,16 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#일기",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -91,14 +90,14 @@
   "active": "ca01076ed5d6a2e0",
   "lastOpenFiles": [
     "contents/__index.md",
-    "README.md",
     "contents/2022-06-30.md",
     "contents/2022-06-05.md",
+    "contents/개발 콘텐츠 목록.md",
+    "README.md",
     "contents/2022-06-17.md",
     "contents/__home.md",
     "contents/hello world.md",
     "contents/home.md",
-    "contents/New notes.md",
-    "contents/newnewnew.md"
+    "contents/New notes.md"
   ]
 }
