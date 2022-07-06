@@ -4,4 +4,4 @@
 
 그 진리를 새기며 걸어간다.
 
-- 
+- [[Building a Second Brain (BASB)]]
