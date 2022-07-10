@@ -1,4 +1,4 @@
-pre > code {
+pre {
   flex-grow: 1;
   flex-shrink: 1;
   text-align: left;
@@ -21,6 +21,8 @@ code {
   border-radius: 3px;
   font-size: 85%;
   padding: 0.2em 0.4em;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 blockquote {
