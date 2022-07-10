@@ -9,7 +9,7 @@ export default (query, searchOptions) => {
   const [bodyIndex, setBodyIndex] = useState(null)
 
   const data = useStaticQuery(graphql`
-    query SearchBarQuery {
+    query CustomSearchBarQuery {
       localSearchPaths {
         publicIndexURL
         publicStoreURL
