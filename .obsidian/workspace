@@ -7,12 +7,8 @@
         "id": "394d0a5819cde985",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "__index.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#일기",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -49,7 +45,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "__index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +85,15 @@
   },
   "active": "394d0a5819cde985",
   "lastOpenFiles": [
+    "daily/days.md",
     "__index.md",
+    "daily/2022-06-17.md",
+    "daily/2022-07-01.md",
+    "daily/2022-07-04.md",
+    "notebox/notes.md",
     "notebox/Building a Second Brain (BASB).md",
     "knowledge/books.md",
-    "notebox/notes.md",
     "developer/devs.md",
-    "daily/days.md",
-    "developer/CODE COMPLETE 2.md",
-    "daily/2022-06-05.md",
-    "daily/2022-07-04.md",
-    "daily/2022-07-01.md"
+    "developer/CODE COMPLETE 2.md"
   ]
 }
