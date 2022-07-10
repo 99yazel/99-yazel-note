@@ -10,7 +10,8 @@ pre {
   min-height: 1em;
   color: rgb(55, 53, 47);
   white-space: pre;
-  background: #c7c7c7;
+  border: 1px solid var(--separator);
+  border-radius: 6px;
 }
 
 code:not(pre > *) {
