@@ -14,3 +14,7 @@ title: "99yz"
 #인풋
 
 [[inputs/index]]
+
+#노트
+
+[[notebox/index]]
