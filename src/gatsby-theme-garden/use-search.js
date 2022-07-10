@@ -9,7 +9,7 @@ export default (query, searchOptions) => {
   const [bodyIndex, setBodyIndex] = useState(null)
 
   const data = useStaticQuery(graphql`
-    query {
+    query CustomSearchQuery {
       allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }) {
         edges {
           node {
@@ -34,7 +34,11 @@ export default (query, searchOptions) => {
     fetch(data.localSearchPaths.publicIndexURL)
       .then(result => result.text())
       .then(res => {
-        const importedIndex = FlexSearch.create()
+        const importedIndex = FlexSearch.create({
+          tokenize: function (str) {
+            return str.split("")
+          },
+        })
         importedIndex.import(res)
 
         setPathIndex(importedIndex)
@@ -42,7 +46,11 @@ export default (query, searchOptions) => {
     fetch(data.localSearchTitles.publicIndexURL)
       .then(result => result.text())
       .then(res => {
-        const importedIndex = FlexSearch.create()
+        const importedIndex = FlexSearch.create({
+          tokenize: function (str) {
+            return str.split("")
+          },
+        })
         importedIndex.import(res)
 
         setTitleIndex(importedIndex)
@@ -50,7 +58,11 @@ export default (query, searchOptions) => {
     fetch(data.localSearchBodies.publicIndexURL)
       .then(result => result.text())
       .then(res => {
-        const importedIndex = FlexSearch.create()
+        const importedIndex = FlexSearch.create({
+          tokenize: function (str) {
+            return str.split("")
+          },
+        })
         importedIndex.import(res)
 
         setBodyIndex(importedIndex)
