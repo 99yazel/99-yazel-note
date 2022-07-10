@@ -8,6 +8,11 @@ export default (query, searchOptions) => {
   const [titleIndex, setTitleIndex] = useState(null)
   const [bodyIndex, setBodyIndex] = useState(null)
 
+  console.log("store: ", store)
+  console.log("pathIndex: ", pathIndex)
+  console.log("titleIndex: ", titleIndex)
+  console.log("bodyIndex: ", bodyIndex)
+
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }) {
