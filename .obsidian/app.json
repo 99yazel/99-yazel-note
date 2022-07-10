@@ -3,5 +3,9 @@
   "legacyEditor": false,
   "newFileLocation": "current",
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "src/",
+    ""
+  ]
 }
