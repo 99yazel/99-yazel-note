@@ -5,16 +5,16 @@ title: "99yz"
 야잴의 이야기 집합소
 
 
-[[daily/index]]
+[[days]]
 
 #개발
 
-[[developer/index]]
+[[devs]]
 
 #인풋
 
-[[inputs/index]]
+[[books]]
 
 #노트
 
-[[notebox/index]]
+[[notes]]
