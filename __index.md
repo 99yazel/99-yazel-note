@@ -23,4 +23,4 @@ title: "99yz"
 
 #인풋
 
-[[Inputs]]
+[[Inputs/index]]

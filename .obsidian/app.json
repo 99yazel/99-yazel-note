@@ -2,5 +2,6 @@
   "trashOption": "system",
   "legacyEditor": false,
   "newFileLocation": "current",
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }

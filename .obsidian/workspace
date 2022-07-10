@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "deviloper/CODE COMPLETE 2.md",
+            "file": "__index.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "deviloper/CODE COMPLETE 2.md",
+                "file": "__index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "ca01076ed5d6a2e0",
   "lastOpenFiles": [
-    "deviloper/CODE COMPLETE 2.md",
-    "deviloper/index.md",
-    "contents/Inputs.md",
+    "__index.md",
+    "Inputs/index.md",
+    "developer/CODE COMPLETE 2.md",
+    "developer/index.md",
     "notebox/Building a Second Brain (BASB).md",
-    "contents/개발 콘텐츠 목록.md",
-    "contents/__index.md",
-    "contents/2022-07-04.md",
-    "contents/2022-07-01.md",
-    "contents/2022-06-30.md",
-    "contents/2022-06-05.md"
+    "daily/개발 콘텐츠 목록.md",
+    "daily/2022-07-04.md",
+    "daily/2022-07-01.md",
+    "daily/2022-06-30.md",
+    "daily/2022-06-05.md"
   ]
 }
