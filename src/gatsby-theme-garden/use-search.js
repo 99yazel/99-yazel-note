@@ -9,16 +9,23 @@ export default (query, searchOptions) => {
   const [bodyIndex, setBodyIndex] = useState(null)
 
   const data = useStaticQuery(graphql`
-    query CustomSearchBarQuery {
-      localSearchPaths {
-        publicIndexURL
-        publicStoreURL
-      }
-      localSearchTitles {
-        publicIndexURL
-      }
-      localSearchBodies {
-        publicIndexURL
+    query {
+      allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }) {
+        edges {
+          node {
+            excerpt(pruneLength: 200)
+            id
+            frontmatter {
+              title
+              description
+              date(formatString: "MMMM DD, YYYY")
+              tags
+            }
+            fields {
+              slug
+            }
+          }
+        }
       }
     }
   `)
@@ -27,11 +34,7 @@ export default (query, searchOptions) => {
     fetch(data.localSearchPaths.publicIndexURL)
       .then(result => result.text())
       .then(res => {
-        const importedIndex = FlexSearch.create({
-          tokenize: function (str) {
-            return str.split("")
-          },
-        })
+        const importedIndex = FlexSearch.create()
         importedIndex.import(res)
 
         setPathIndex(importedIndex)
@@ -39,11 +42,7 @@ export default (query, searchOptions) => {
     fetch(data.localSearchTitles.publicIndexURL)
       .then(result => result.text())
       .then(res => {
-        const importedIndex = FlexSearch.create({
-          tokenize: function (str) {
-            return str.split("")
-          },
-        })
+        const importedIndex = FlexSearch.create()
         importedIndex.import(res)
 
         setTitleIndex(importedIndex)
@@ -51,11 +50,7 @@ export default (query, searchOptions) => {
     fetch(data.localSearchBodies.publicIndexURL)
       .then(result => result.text())
       .then(res => {
-        const importedIndex = FlexSearch.create({
-          tokenize: function (str) {
-            return str.split("")
-          },
-        })
+        const importedIndex = FlexSearch.create()
         importedIndex.import(res)
 
         setBodyIndex(importedIndex)
