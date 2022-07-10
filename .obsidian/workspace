@@ -7,8 +7,12 @@
         "id": "394d0a5819cde985",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "__index.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "__index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,8 +89,8 @@
   },
   "active": "394d0a5819cde985",
   "lastOpenFiles": [
-    "notebox/Building a Second Brain (BASB).md",
     "__index.md",
+    "notebox/Building a Second Brain (BASB).md",
     "knowledge/books.md",
     "notebox/notes.md",
     "developer/devs.md",
