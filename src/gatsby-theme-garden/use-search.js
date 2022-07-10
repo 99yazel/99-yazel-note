@@ -9,23 +9,16 @@ export default (query, searchOptions) => {
   const [bodyIndex, setBodyIndex] = useState(null)
 
   const data = useStaticQuery(graphql`
-    query CustomSearchQuery {
-      allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }) {
-        edges {
-          node {
-            excerpt(pruneLength: 200)
-            id
-            frontmatter {
-              title
-              description
-              date(formatString: "MMMM DD, YYYY")
-              tags
-            }
-            fields {
-              slug
-            }
-          }
-        }
+    query CustomSearchBarQuery {
+      localSearchPaths {
+        publicIndexURL
+        publicStoreURL
+      }
+      localSearchTitles {
+        publicIndexURL
+      }
+      localSearchBodies {
+        publicIndexURL
       }
     }
   `)
