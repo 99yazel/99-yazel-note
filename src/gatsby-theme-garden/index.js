@@ -8,20 +8,20 @@ export default (query, searchOptions) => {
   const [titleIndex, setTitleIndex] = useState(null)
   const [bodyIndex, setBodyIndex] = useState(null)
 
-  const data = useStaticQuery(graphql`
-    query SearchBarQuery {
-      localSearchPaths {
-        publicIndexURL
-        publicStoreURL
-      }
-      localSearchTitles {
-        publicIndexURL
-      }
-      localSearchBodies {
-        publicIndexURL
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query SearchBarQuery {
+  //     localSearchPaths {
+  //       publicIndexURL
+  //       publicStoreURL
+  //     }
+  //     localSearchTitles {
+  //       publicIndexURL
+  //     }
+  //     localSearchBodies {
+  //       publicIndexURL
+  //     }
+  //   }
+  // `)
 
   useEffect(() => {
     fetch(data.localSearchPaths.publicIndexURL)
