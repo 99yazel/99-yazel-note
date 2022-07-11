@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "__index.md",
+            "file": "developer/NestJS.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#일기",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "__index.md",
+                "file": "developer/NestJS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +89,15 @@
   },
   "active": "394d0a5819cde985",
   "lastOpenFiles": [
+    "developer/NestJS.md",
+    "notebox/_notes.md",
+    "knowledge/_books.md",
+    "developer/_devs.md",
+    "daily/_days.md",
     "__index.md",
     "daily/2022-06-05.md",
-    "developer/NestJS.md",
-    "developer/devs.md",
     "developer/CODE COMPLETE 2.md",
     "notebox/Building a Second Brain (BASB).md",
-    "notebox/notes.md",
-    "daily/days.md",
-    "daily/2022-06-17.md",
-    "daily/2022-07-01.md"
+    "daily/2022-06-17.md"
   ]
 }
