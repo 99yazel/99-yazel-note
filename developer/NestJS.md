@@ -13,4 +13,7 @@ $ npm run start:dev
 
 
 
-ref. https://hashdork.com/ko/nest-js-tutorial/
+ref.
+- https://hashdork.com/ko/nest-js-tutorial/
+- https://sound-story.tistory.com/2?category=992958
+- 
