@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notebox/Building a Second Brain (BASB).md",
+            "file": "__index.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#일기",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notebox/Building a Second Brain (BASB).md",
+                "file": "__index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +90,15 @@
   },
   "active": "394d0a5819cde985",
   "lastOpenFiles": [
-    "notebox/Building a Second Brain (BASB).md",
+    "__index.md",
+    "daily/2022-06-05.md",
     "developer/NestJS.md",
     "developer/devs.md",
-    "__index.md",
+    "developer/CODE COMPLETE 2.md",
+    "notebox/Building a Second Brain (BASB).md",
     "notebox/notes.md",
-    "daily/2022-06-05.md",
     "daily/days.md",
     "daily/2022-06-17.md",
-    "daily/2022-07-01.md",
-    "daily/2022-07-04.md"
+    "daily/2022-07-01.md"
   ]
 }
