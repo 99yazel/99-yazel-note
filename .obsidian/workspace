@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "__index.md",
+            "file": "developer/NestJS.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "__index.md",
+                "file": "developer/NestJS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "394d0a5819cde985",
   "lastOpenFiles": [
-    "__index.md",
-    "developer/devs.md",
     "developer/NestJS.md",
     "notebox/Building a Second Brain (BASB).md",
+    "developer/devs.md",
+    "__index.md",
     "notebox/notes.md",
     "daily/2022-06-05.md",
     "daily/days.md",
