@@ -34,7 +34,7 @@ export default (query, searchOptions) => {
           },
         })
         importedIndex.import(res)
-
+        console.log("importedIndex: ", importedIndex)
         setPathIndex(importedIndex)
       })
     fetch(data.localSearchTitles.publicIndexURL)
