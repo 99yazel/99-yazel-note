@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notebox/notes.md",
+            "file": "notebox/Building a Second Brain (BASB).md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notebox/notes.md",
+                "file": "notebox/Building a Second Brain (BASB).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +89,8 @@
   },
   "active": "394d0a5819cde985",
   "lastOpenFiles": [
-    "notebox/notes.md",
     "notebox/Building a Second Brain (BASB).md",
+    "notebox/notes.md",
     "__index.md",
     "daily/2022-06-05.md",
     "daily/days.md",
