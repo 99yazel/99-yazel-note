@@ -13,7 +13,8 @@
     "gatsby-theme-garden": "^0.1.66",
     "gatsby-theme-pkm-garden": "^1.0.2",
     "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react-dom": "^16.14.0",
+    "hangul-js": "^0.2.6"
   },
   "devDependencies": {
     "gatsby-plugin-netlify": "^2.11.1"
