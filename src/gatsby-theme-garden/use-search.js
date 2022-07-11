@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from "react"
 import FlexSearch from "flexsearch"
 import { graphql, useStaticQuery } from "gatsby"
+import * as Hangul from "hangul-js"
 
 export default (query, searchOptions) => {
   const [store, setStore] = useState(null)
@@ -29,7 +30,7 @@ export default (query, searchOptions) => {
       .then(res => {
         const importedIndex = FlexSearch.create({
           tokenize: function (str) {
-            return str.split("")
+            return Hangul.disassemble(str)
           },
         })
         importedIndex.import(res)
@@ -41,7 +42,7 @@ export default (query, searchOptions) => {
       .then(res => {
         const importedIndex = FlexSearch.create({
           tokenize: function (str) {
-            return str.split("")
+            return Hangul.disassemble(str)
           },
         })
         importedIndex.import(res)
@@ -53,7 +54,7 @@ export default (query, searchOptions) => {
       .then(res => {
         const importedIndex = FlexSearch.create({
           tokenize: function (str) {
-            return str.split("")
+            return Hangul.disassemble(str)
           },
         })
         importedIndex.import(res)
