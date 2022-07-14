@@ -44,7 +44,7 @@ blockquote {
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
 @import url("https://dev-cats.github.io/code-snippets/JetBrainsMono.css");
 * {
-  font-family: JetBrainsMono, Pretendard, -apple-system, BlinkMacSystemFont,
+  font-family: JetBrains Mono, Pretendard, -apple-system, BlinkMacSystemFont,
     system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
     "Noto Sans KR", "Malgun Gothic", sans-serif;
 }
