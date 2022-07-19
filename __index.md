@@ -12,6 +12,8 @@ title: "99yz"
 
 `#노트` => [[_notes]]
 
+`#greedy_v` => [[_greedy]]
+
 ---
 
 # H1
