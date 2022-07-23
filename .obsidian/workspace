@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "developer/Web.md",
+            "file": "developer/_devs.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "developer/Web.md",
+                "file": "developer/_devs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "2ca4b2e24e341c1f",
   "lastOpenFiles": [
+    "developer/Web.md",
     "developer/Computer Science.md",
     "developer/_devs.md",
     "greedy/notion 으로 프로젝트 셋팅.md",
@@ -97,7 +98,6 @@
     "notebox/_notes.md",
     "knowledge/_books.md",
     "Untitled.md",
-    "developer/NestJS.md",
-    "daily/_days.md"
+    "developer/NestJS.md"
   ]
 }

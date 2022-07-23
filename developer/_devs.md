@@ -1,5 +1,7 @@
 [[CODE COMPLETE 2]]
 [[NestJS]]
+[[Web]]
+[[Computer Science]]
 
 
 ---
