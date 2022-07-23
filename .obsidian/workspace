@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "394d0a5819cde985",
+        "id": "2ca4b2e24e341c1f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "__index.md",
+            "file": "developer/Web.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "__index.md",
+                "file": "developer/Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "394d0a5819cde985",
+  "active": "2ca4b2e24e341c1f",
   "lastOpenFiles": [
+    "developer/Computer Science.md",
+    "developer/_devs.md",
+    "greedy/notion 으로 프로젝트 셋팅.md",
     "__index.md",
     "greedy/_greedy.md",
     "notebox/_notes.md",
     "knowledge/_books.md",
     "Untitled.md",
-    "developer/_devs.md",
     "developer/NestJS.md",
-    "daily/_days.md",
-    "daily/2022-06-05.md",
-    "developer/CODE COMPLETE 2.md"
+    "daily/_days.md"
   ]
 }

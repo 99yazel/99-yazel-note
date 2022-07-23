@@ -1,0 +1,1 @@
+- [노션에 지라 연결](https://www.notion.so/ko-kr/help/guides/synced-databases-bridge-different-tools)
